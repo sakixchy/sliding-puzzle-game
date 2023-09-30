@@ -33,9 +33,20 @@ body {
 
 #instruction-box {
     font-family: 'Kalam', cursive;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     width: 300px;
     background-color: rgba(172, 32, 142, 0.6);
     border-radius: 23px 0px 0px 23px;
+
+}
+
+h4 {
+    font-size: 175%;
+    text-shadow: 0 2px black;
+    margin-top: 1rem;
 }
