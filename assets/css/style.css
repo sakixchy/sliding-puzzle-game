@@ -58,8 +58,17 @@ h4 {
 #game-box {
     width: 360px;
     height: 360px;
-    background-color: rgb(184, 19, 101);
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     margin-top: 5rem;
     padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 6px solid rgb(184, 19, 101);
+}
+
+#game-box img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid rgb(184, 19, 101)
 }
