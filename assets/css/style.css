@@ -4,3 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    color: rgb(184, 19, 101);
+    font-family: 'Staatliches', cursive;;
+    text-align: center;
+    
+}
+
+
+#logo {
+    width: 240px;
+    text-align: center;
+    
+}
