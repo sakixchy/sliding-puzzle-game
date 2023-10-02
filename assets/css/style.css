@@ -75,7 +75,7 @@ h4 {
     border: 3px solid rgb(184, 19, 101);
 }
 
-#turn-count {
+#count {
     display: inline-block;
     position: absolute;
     bottom: 100px;
