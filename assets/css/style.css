@@ -95,3 +95,19 @@ h4 {
     top: 30px;
     right: 85px;
 }
+
+#play-music {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+}
+
+#pause-music {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+    margin-left: 20px;
+    font-size: 100%;
+}
