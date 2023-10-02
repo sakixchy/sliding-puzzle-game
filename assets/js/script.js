@@ -1,3 +1,4 @@
+// Puzzle Box
 const rows = 3;
 const columns = 3;
 
@@ -19,10 +20,10 @@ window.onload = function() {
     }
 }
 
-
+// Background Music
 document.getElementById('play-music').addEventListener('click', function() {
-    var icon = document.getElementById('icon');
-    var audio = document.getElementById('myAudio');
+    let icon = document.getElementById('icon');
+    let audio = document.getElementById('theme-song');
 
     if (icon.classList.contains('fa-music')) {
         // Music is currently paused, start playing
