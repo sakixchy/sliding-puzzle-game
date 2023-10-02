@@ -46,6 +46,7 @@ body {
 
 }
 
+/**Instruction section headings**/
 h4 {
     font-size: 175%;
     text-shadow: 0 2px black;
@@ -56,6 +57,7 @@ h4 {
     list-style: none;
 }
 
+/**Puzzle Game**/
 #game-box {
     width: 360px;
     height: 360px;
@@ -90,6 +92,7 @@ h4 {
     font-size: 1.5rem;
 }
 
+/** Audio toggle styles**/
 #bg-music {
     position: absolute;
     top: 10px;

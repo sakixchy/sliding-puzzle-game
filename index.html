@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta Tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fate: Sliding Puzzle Game">
     <meta name="keywords" content="Rider, Fate Series, Anime, Video Game, Puzzle">
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    <!--Title-->
     <title>Fate: Sliding Puzzle</title>
+     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/images/puzzle-favicon.png">
 </head>
 <body>
     <header>
+        <!--Logo-->
         <img id="logo" src="assets/images/logo.png">
+        <!--Heading-->
         <h1>Sliding Puzzle</h1>
     </header>
     <main>
+        <!--Puzzle Game-->
         <div id="game-container">
+            <!--Instructions Text-->
             <div id="instruction-box">
                 <p><h4>How To Play?</h4><br>
                 Simply drag a tile and swap it with another one adjacent to it. <br>
@@ -34,14 +43,17 @@
                     <li>Highscore Table</li>
                 </ul>
             </div>
+            <!--Interactive Puzzle Game-->
               <div id="game-box"></div>
                 <div id="turn-count">
                    <p>Turn: 0</p>
                 </div>
+                <!--Timer function-->
                   <div id="timer">
                     <p><i class="fa-regular fa-clock" style="color: #b81365;"></i> 3:00</p>
                   </div>
-                  <div id="bg-music">
+                  <!--Audio toggle function-->
+                   <div id="bg-music">
                     <p>Click here to enjoy this theme song! 
                         <br>
                         <i class="fa-solid fa-chevron-down fa-sm" style="color: #b81265;"></i>
@@ -50,7 +62,7 @@
                     <button id="play-music">
                       <i id="icon" class="fa-solid fa-music fa-2xl" style="color: #b81265"></i>
                     </button>
-                  </div>
+                   </div>
         </div>
         
     </main>

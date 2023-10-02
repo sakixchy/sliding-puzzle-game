@@ -6,7 +6,7 @@ let currentTile;
 let otherTile;
 
 let turns = 0;
-let imgOrder = ["1","2", "3", "4", "5", "6", "7", "8","9"];
+let imgOrder = ["5","3", "9", "6", "4", "2", "1", "7","6"];
 
 window.onload = function() {
     for (let r=0; r < rows; r++ ) {
@@ -19,6 +19,13 @@ window.onload = function() {
         }
     }
 }
+
+/*Drag and Drop function inside puzzle*/
+tile.addEventListener("dragstart", dragStart);
+tile.addEventListener("dragover", dragOver);
+tile.addEventListener("dragenter", dragEnter);
+tile.addEventListener("dragdrop", dragDrop);
+tile.addEventListener("dragleave", dragLeave);
 
 // Background Music
 document.getElementById('play-music').addEventListener('click', function() {
