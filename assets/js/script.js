@@ -19,3 +19,22 @@ window.onload = function() {
     }
 }
 
+
+document.getElementById('play-music').addEventListener('click', function() {
+    var icon = document.getElementById('icon');
+    var audio = document.getElementById('myAudio');
+
+    if (icon.classList.contains('fa-music')) {
+        // Music is currently paused, start playing
+        icon.classList.remove('fa-music');
+        icon.classList.add('fa-pause');
+        audio.play();  // Start playing the audio
+    } else {
+        // Music is currently playing, pause it
+        icon.classList.remove('fa-pause');
+        icon.classList.add('fa-music');
+        audio.pause();  // Pause the audio
+    }
+});
+
+
