@@ -91,5 +91,7 @@ h4 {
 }
 
 #bg-music {
-    
+    position: absolute;
+    top: 30px;
+    right: 85px;
 }
